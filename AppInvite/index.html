@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>【2016中科氢氧】群贤毕至, 强势倾袭</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript">
+			setSize();
+			window.addEventListener('resize',setSize,false);
+			window.addEventListener('orientation',setSize,false);
+        	function setSize(){
+        		var html = document.getElementsByTagName('html')[0];
+				var pageWidth = html.getBoundingClientRect().width;
+				 pageWidth= pageWidth>540? 540:pageWidth;
+				html.style.fontSize = pageWidth / 16 + 'px';
+        	}
+		</script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/css.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/angular.js"></script>
+		<script type="text/javascript">
+			var zkqy=angular.module('zkqy',[]);
+
+			zkqy.controller('work',['$scope',function($scope){
+          	$scope.worksList = [
+            	{
+            		job:'云计算工程师',
+            		duty:[
+			     '1. 参与云平台相关的调研、开发和测试；',
+			     '2. 参与云平台的部署和维护；',
+			     '3. 编写、修订和审核技术支持相关文档和作业指导书。',
+                       	],
+            		require:[
+			     '1. 计算机相关专业；',
+			     '2. 最少熟悉一种Hypervisor平台（如VMware,KVM等）；',
+			     '3. 熟练至少一种脚本语言，熟悉python的优先；',
+			     '4. 熟练操作Linux操作系统；',
+			     '5. 熟悉OpenStack产品及各个组件优先；',
+			     '6. 有自动化运维经验，例如使用chef，puppet，ansible等自动运维软件经验的优先；',
+			     '7. 拥有一定的英语读写听说能力。'
+                       	],
+                    site:'上海'
+            	},
+          	];
+
+          	}]);
+
+		</script>
+	</head>
+	<body ng-app="zkqy">
+		<div id="wraper">
+			<header>
+				<div class="headText">【2016中科氢氧】群贤毕至, 强势倾袭</div>
+			</header>
+			<section class="hot">
+				<div class="hot1">招聘</div>
+				<ul class="hot2">
+					<li class="top">中科氢氧2016年</li>
+					<li classs="bottom">最新社招&校招信息汇总</li>
+				</ul>
+			</section>
+			<section class="richContent">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+					    <h3 class="panel-title">童鞋，最近是否感觉缺乏挑战了<h3>
+					</div>
+					<div class="panel-body">该去释放下自己的激情了——去一家高大上的云计算公司实现自己的价值！那么，加入中科氢氧一起拼可好？不用拼爹、不用拼颜值、不用拼身材！带着你的<span>“极致、激情、创新、理想”</span>来就好了！</div>
+				</div>
+			</section>
+			<section class="picture">
+				
+			</section>
+			<section class="recommend">
+				<div class="header">公司介绍</div>
+				<div class="shape">
+					<div class="circuit"></div>
+					<div class="circular1"></div>
+					<div class="triangle">
+						<div class="circular2"></div>
+						<div class="circular3"></div>
+					</div>
+				</div>
+				<ul class="recommendText">
+					<li>中科氢氧云计算技术有限公司（以下简称中科氢氧）成立于2014年，是《中国云体系产业创新战略联盟》的理事单位。 公司总部位于上海，在北京、广州、合肥等地设有多个分支机构，业务范围覆盖华北、华东、华中和华南等大部分地区。</li>
+					<li>中科氢氧的核心技术团队，由中科院的骨干技术人员以及原IBM等前全球50强的研发团队共同组成，他们在业务拓展、技术积累和产品研发等方面成为我司的中坚力量。中科氢氧致力于开发企业私有云平台(vaneCloud)、大数据解决方案和SaaS应用的行业云战略服务提供商。创新、服务激情和责任是我们公司创立至今一直秉承的服务理念，以此来为我们的客户提供赋有前瞻性和可持续性的优质的产品和服务。</li>
+				</ul>
+			</section>
+			<section class="recommend">
+				<div class="header">联系我们</div>
+				<div class="shape">
+					<div class="circuit"></div>
+					<div class="circular1"></div>
+					<div class="triangle">
+						<div class="circular2"></div>
+						<div class="circular3"></div>
+					</div>
+				</div>
+				<div class="advantage">公司地址：<span>上海市桂平路471号3号楼3楼(漕河泾新兴技术开发区)</span></div>
+				<div class="advantage">简历请发送：<span>hr@vanecloud.com</span></div>
+			</section>
+			<section class="recommend">
+				<div class="header">招聘岗位</div>
+				<div class="shape">
+					<div class="circuit"></div>
+					<div class="circular1"></div>
+					<div class="triangle">
+						<div class="circular2"></div>
+						<div class="circular3"></div>
+					</div>
+				</div>
+				<div id="myCarousel" class="carousel slide jobPic">
+				  	<ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					    <li data-target="#myCarousel" data-slide-to="3"></li>
+					    <li data-target="#myCarousel" data-slide-to="4"></li>
+					</ol>   
+					<div class="carousel-inner">
+						<div class="item active">
+						    <img src="img/1.jpg" alt="First slide">
+						</div>
+						<div class="item">
+						   	<img src="img/2.jpg" alt="Second slide">
+						</div>
+					    <div class="item">
+					        <img src="img/2.jpg" alt="Third slide">
+					    </div>
+						<div class="item">
+					        <img src="img/2.jpg" alt="Third slide">
+					    </div>
+						<div class="item">
+					        <img src="img/2.jpg" alt="Third slide">
+					    </div>
+					</div>
+					<a class="carousel-control left glyphicon glyphicon-menu-left" href="#myCarousel" 
+					      data-slide="prev"></a>
+					<a class="carousel-control right glyphicon glyphicon-menu-right" href="#myCarousel" 
+					      data-slide="next"></a>
+				</div> 
+			</section>
+			<section class="job" ng-controller="work">
+				<div ng-repeat="data in worksList">
+					<div class="jobHead">
+						<div class="jobText">
+							【<span>{{data.job}}</span>】
+						</div>
+					</div>
+					<div class="animation">
+						<img src="img/job.gif">
+					</div>
+					<div class="demand">岗位职责：</div>
+					<ul class="require">
+						<li ng-repeat="require in data.require">{{require}}</li>
+					</ul>
+					<div class="demand">职位要求：</div>
+					<ul class="require">
+						<li ng-repeat="duty in data.duty">{{duty}}</li>
+					</ul>
+				</div>
+			</section>
+			<footer>
+				<section class="LinerRed"></section>
+				<div class="footText">【关注】校招日历，求职路上，与你一起并肩</div>
+			</footer>
+		</div>
+	</body>
+</html>
