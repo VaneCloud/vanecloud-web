@@ -1,0 +1,437 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+	width: 100%;
+  	height: 100%;
+	font-size: 0.5rem;
+  	font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	overflow: auto;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: #818788;
+}
+
+
+div{
+	overflow: hidden;
+}
+
+ul li,ol li{
+	list-style: none;
+}
+
+#wraper{
+	padding:0.8rem;
+}
+
+.headText{
+	font-size: 1rem;
+	color:#000;
+	font-weight: 400;
+	margin-bottom:0.25rem;
+}
+
+section{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+
+.richList{
+	margin-bottom:1.5rem;
+	overflow: hidden;
+}
+
+.richList span{
+	color: #8c8c8c; 
+	font-size: 0.5rem;
+}
+
+.hot{
+	margin-bottom:1rem;
+	text-align: center;
+}
+
+.hot1{
+	display: inline-block;
+	vertical-align: top;
+	color: rgb(71, 193, 168);
+	width:1.2rem;
+	font-size:1rem;
+    font-weight: bold;
+    font-family: inherit;
+    line-height: 1.1rem;
+}
+
+.hot2{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hot2 li{
+	text-align: left;
+	line-height: 1.1rem;
+	font-size:0.75rem; 
+    padding:0.01rem;
+  	font-family: inherit;
+
+}
+
+.hot2 li.top{
+	color: rgb(255, 255, 255);
+    text-align: center;
+   	background-color: rgb(249, 110, 87);
+}
+
+.hot2 li.bottom{
+	color: rgb(120, 124, 129);
+}
+
+.jobPic{
+	overflow: hidden;
+}
+
+.panel.panel-primary{
+	padding:0.5rem;
+	border:0.1rem solid rgb(30, 155, 232);
+	border-radius:0.4rem;
+	margin-bottom: 0.75rem;
+}
+
+.panel-primary > .panel-heading{
+	background: none;
+	text-align: center;
+	border-color: rgb(30, 155, 232);
+	border-bottom: 0.1rem solid rgb(30, 155, 232);
+}
+
+.panel{
+	box-shadow: none;
+}
+
+.panel-title{
+	color:#337ab7;
+	font-size:0.6rem;
+	font-weight: bold;
+	padding-bottom:0.3rem;
+	margin-top:0.3rem;
+}
+
+.panel-body{
+	padding-top:0.4rem;
+	color:#000;
+	font-size:0.6rem;
+	line-height:1.2rem;
+	
+}
+
+.context{
+	color:#000;
+	font-size:0.65rem;
+	line-height:1.2rem;
+}
+
+.panel-body span,.context span{
+	font-size:0.65rem;
+	
+	font-weight: bold;
+	line-height:1.2rem;
+}
+
+.panel-body span{
+	color: rgb(0, 112, 192);
+}
+
+.context span{
+	color: rgb(0, 112, 192);
+}
+
+
+.demand span{
+	color: #3e3e3e;
+	font-weight: normal;
+}
+
+.school{
+margin-top: 0.5rem;
+}
+
+.school li{
+margin-bottom: 0.45rem;
+font-size:0.6rem;
+line-height:1rem;
+}
+
+.school li span{
+	margin-right:0.1rem;
+}
+
+.route{
+	margin-top: 0.5rem;
+	color: #3e3e3e;
+	font-size:0.6rem;
+	line-height: 1.2rem;
+}
+
+.tips{
+	margin-top: 0.5rem;
+	color: #3e3e3e;
+	font-size:0.28rem;
+	line-height: 1.1rem;
+}
+
+.tips span{
+	color: rgb(255, 0, 0);
+	font-weight:bold;
+}
+
+.recommend{
+	width:100%;
+	margin-top:1.5rem;
+
+}
+
+.recommend .header{
+	text-align: center;
+	color: rgb(0, 112, 192);
+	font-weight: bold;
+	font-size:0.65rem;
+	overflow: visible;
+}
+
+.recommend .shape{
+	width:100%;
+	height:1.6rem;
+	position: relative;
+	overflow: visible;
+}
+
+.recommend .shape .circuit{
+	position: absolute;
+	width:100%;
+	height: 0.06rem;
+	background: rgb(255, 204, 158);
+	top:0.6rem;
+}
+
+.recommend .shape .triangle{
+	position: absolute;
+	width:1.4rem;
+	height:1.5rem;
+	left:50%;
+	bottom:0.6rem;
+	margin-left:-0.6rem;
+	border-left:0.06rem solid rgb(255, 204, 158);
+	border-bottom:0.06rem solid rgb(255, 204, 158);
+	transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg); 
+	-webkit-transform: rotate(-45deg);
+	overflow: visible;
+}
+
+.recommend .shape .circular1{
+	position: absolute;
+	width: 0.3rem;
+	height:0.3rem;
+	border-radius: 100%;
+	left:0;
+	top:0.485rem;
+	background-color: rgb(95, 156, 239);
+}
+
+.recommend .shape .triangle .circular2{
+	position: absolute;
+	width: 0.3rem;
+	height:0.3rem;
+	left:-0.2rem;
+	top:0;
+	border-radius: 100%;
+	transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg); 
+	-webkit-transform: rotate(-45deg);
+	background-color: rgb(95, 156, 239);
+}
+
+.recommend .shape .triangle .circular3{
+	position: absolute;
+	width: 0.3rem;
+	height:0.3rem;
+	right:-0.1rem;
+	bottom:-0.1rem;
+	border-radius: 100%;
+	transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg); 
+	-webkit-transform: rotate(-45deg);
+	background-color: rgb(95, 156, 239);
+}
+
+.recommendText li{
+	margin-top:0.5rem;
+	font-size:0.6rem;
+	line-height:1.2rem;
+}
+
+.recommendText li span{
+	line-height:1.2rem;
+	font-size:0.65rem;
+	color: rgb(0, 112, 192);
+	font-weight: bold;
+}
+
+.advantage{
+	margin-top:0.4rem;
+	font-size:0.6rem;
+	line-height:1.2rem;
+}
+
+.advantage span{
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
+
+.job{
+	width:100%;
+}
+
+.job .jobHead{
+	color: rgb(0, 112, 192);
+	padding-bottom:0.5rem;
+	margin-top:1.5rem;
+	
+	font-weight: bold;
+	font-size: 0.6rem;
+	clear:both;
+	
+	text-align: center;
+}
+
+.jobText{
+	display:inline-block;
+	border-top:0.2rem solid rgb(29, 139, 201);
+}
+
+.job .jobHead span{
+	padding-top:0.4rem;
+	display:inline-block;
+	
+}
+
+.job .animation{
+	width:100%;
+	height:2rem;
+
+}
+
+.job .animation img{
+	width:100%;
+	
+}
+
+.job .demand{
+	width:100%;
+	color: rgb(0, 112, 192);
+	text-align:left;
+	font-weight: bold;
+	font-size: 0.6rem;
+	line-height: 1rem;
+}
+
+.require{
+
+}
+
+.require li{
+	color: #3e3e3e;
+	font-size:0.6rem;
+    font-weight: normal;
+    font-family: inherit;
+    line-height: 1.1rem;
+}
+
+.LinerRed{
+	width: 100%;
+	height:0.05rem;
+	background: rgb(249, 110, 87);
+	margin:1rem 0;
+}
+
+footer{
+	overflow: hidden;
+}
+
+.footText{
+	width: 100%;
+	text-align: center;
+	font-family: inherit;
+    font-size: 0.6rem;
+    line-height: 1rem;
+}
+
+.contact{
+	border: 0.05rem solid rgb(226, 226, 226);
+    box-shadow: rgb(226, 226, 226) 0px 16px 1px -13px;
+    background-color: rgb(255, 255, 255);
+    padding:0.2rem;
+    -webkit-box-sizing: border-box!important;
+}
+
+.jobPic{
+	width:14.4rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.carousel-inner{
+	width:72rem;
+	height:8rem;
+	overflow: hidden;
+}
+
+.carousel-inner .item{
+	width:14.4rem;
+	height:8rem;
+	float:left;
+}
+
+.carousel-inner .item img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-indicators{
+	position: absolute;
+	text-align: center;
+	bottom:0.5rem;
+	width: 100%;
+	z-index: 99;
+}
+
+.carousel-indicators li{
+	width:0.5rem;
+	height:0.5rem;
+	border-radius: 100%;
+	display: inline-block;
+	background:#fff;
+	margin:0.2rem;
+	border:0.05rem solid #fff;
+}
+
+.carousel-indicators li.active{
+	background:#000;
+}
