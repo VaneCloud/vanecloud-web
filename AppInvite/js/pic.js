@@ -8,10 +8,17 @@ $(function(){
 	var iStartPageX=0;
 	var iNow=0;
 	var oTimer=0;
-
+	var item=$(".item").size();	
+	
+	for(var j=0;j<item-1;j++){
+		$(".carousel-indicators").append("<li></li>");
+	}
+	$(".carousel-indicators li").first().addClass("active");
+	
 	oPicList.innerHTML+=oPicList.innerHTML;
 	oPicList.style.width=oPicList.clientWidth*2+"px";
 
+	
 	function autoPlay()
 	{
 		oTimer=setInterval(function(){
